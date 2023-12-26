@@ -1,8 +1,6 @@
+%% Choi matrix of the loss channel
 function y = Jw(Wmat,Ebasis)
-% Inputs:
-% W:            Process matrix of the loss channel
-% Ebasis:       matrix of basis operators
-% Outputs:
-% Choi matrix of the loss channel
+% Wmat:     Process matrix of the loss channel
+% Ebasis:   matrix of basis operators
 y = TrX(Ebasis*kron(Wmat .',eye(8)),1,[8,8]);
 end

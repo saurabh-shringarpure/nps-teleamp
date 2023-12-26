@@ -1,3 +1,4 @@
+%% CP projection
 function y = CP(x)
     x = reshape(x, [8,8]); 
     [U, S, V] = svd(x);

@@ -1,3 +1,4 @@
+% TP projection
 function y = TP(x)
     d = 2;
     M = kron(kron(eye(4),[1, 0]),kron(eye(4),[1, 0]))+kron(kron(eye(4),[0, 1]),kron(eye(4),[0, 1]));

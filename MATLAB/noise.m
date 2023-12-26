@@ -1,3 +1,4 @@
+%% 
 function y = noise(alpha, gamma)
-y = Jw(W(alpha, gamma),Ebasis);
+y = Jw(WnPS(alpha, gamma, 0),Ebasis);
 end
