@@ -248,7 +248,7 @@ plot(X, PalphaSqrt2eta95gamma90RE0(:,4),  ':','Marker','.','MarkerFaceColor','#C
 plot(X, PalphaSqrt2eta95gamma90RE0allnPS10 ,  '-','Marker','.','MarkerFaceColor','k','Color','k','LineWidth',linewidth);
 hold off
 xlabel('$T$'         , 'Interpreter', 'latex')
-ylabel('$P_{\rm{s}}^{\rm min}$', 'Interpreter', 'latex')
+ylabel('$P_{\rm{s}}$', 'Interpreter', 'latex')
 ylim([0 0.0105]);
 % yticks([0 0.005 0.010])
 % yticklabels({ '0' '5' '10'})
@@ -291,12 +291,12 @@ fontsize    = 30;
 rd          = "#CC0000";
 bu          = "#3366CC";
 grn         = '#008800';
-plot(X, Palpha2eta95gamma90RE0allnPS10,  '-','Marker','.','MarkerFaceColor','k','Color','k','LineWidth',linewidth);
+plot(X, Palpha2eta95gamma90RE0allnPS10,  '-','Marker','none','MarkerFaceColor','k','Color','k','LineWidth',linewidth);
 hold on
-% plot(X, Palpha2eta95gamma90RE0allnPS2,  ':','Marker','none','MarkerFaceColor','k','Color','k','LineWidth',linewidth);
-% plot(X, Palpha2eta95gamma90RE0allnPSallteleamp2atmost ,  '--','Marker','none','MarkerFaceColor',rd,'Color',rd,'LineWidth',linewidth);
-% plot(X, Palpha2eta95gamma90RE0allnPSallteleamp6atmost ,  '-.','Marker','none','MarkerFaceColor',bu,'Color',bu,'LineWidth',linewidth);
-plot(X, Palpha2eta95gamma90RE0allnPSallteleamp10atmost ,  '--','Marker','x','MarkerFaceColor',grn,'Color',grn,'LineWidth',linewidth);
+plot(X, Palpha2eta95gamma90RE0allnPS2,  ':','Marker','none','MarkerFaceColor','k','Color','k','LineWidth',linewidth);
+plot(X, Palpha2eta95gamma90RE0allnPSallteleamp2atmost ,  '--','Marker','none','MarkerFaceColor',rd,'Color',rd,'LineWidth',linewidth);
+plot(X, Palpha2eta95gamma90RE0allnPSallteleamp6atmost ,  '-.','Marker','none','MarkerFaceColor',bu,'Color',bu,'LineWidth',linewidth);
+plot(X, Palpha2eta95gamma90RE0allnPSallteleamp10atmost ,  ':','Marker','none','MarkerFaceColor',grn,'Color',grn,'LineWidth',linewidth);
 hold off
 set(gca,'fontsize',fontsize)
 xaxisproperties                         = get(gca, 'XAxis');
@@ -304,7 +304,7 @@ yaxisproperties                         = get(gca, 'YAxis');
 xaxisproperties.TickLabelInterpreter    = 'latex';
 yaxisproperties(1).TickLabelInterpreter = 'latex';
 xlabel('$T$'         , 'Interpreter', 'latex')
-ylabel('$P_{\rm{s}}^{\rm min}$', 'Interpreter', 'latex')
+ylabel('$P_{\rm{s}}$', 'Interpreter', 'latex')
 yaxisproperties.TickLabelInterpreter = 'latex';
 %% (alpha = sqrt(2)) F an P v. T. Compare nPS
 alpha       = sqrt(2);
