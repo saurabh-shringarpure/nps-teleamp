@@ -12,30 +12,30 @@ Here is the list of required software to run all codes:
 
 ## Package content
 * `/Mathematica/`: contains Mathematica notebooks
-### `/Mathematica/Fidelity and success probability versus loss.nb`
-Contains analytical expressions for the fidelity and success probability considering recovery due to M. Bergmann and P. van Loock, Quantum error correction against photon loss using multicomponent cat states, Phys. Rev. A 94, 042332 (2016) and realistic losses during detection.
+  #### `/Mathematica/Fidelity and success probability versus loss.nb`
+    Contains analytical expressions for the fidelity and success probability considering recovery due to M. Bergmann and P. van Loock, Quantum error correction against photon loss using multicomponent cat states, Phys. Rev. A 94, 042332 (2016) and realistic losses during detection.
 
-### `/Mahtematica/Process matrix and the effect of distortions.nb`
-Contains the derivation for the process matrix for effective loss channel for even-numbered photon subtraction and the effect of distortions on the qubit due to the nonunitary noiseless attenuation and amplification.
+  #### `/Mahtematica/Process matrix and the effect of distortions.nb`
+    Contains the derivation for the process matrix for effective loss channel for even-numbered photon subtraction and the effect of distortions on the qubit due to the nonunitary noiseless attenuation and amplification.
 
-### `/Mathematica/Process matrix for oddPS.nb`
-Process matrix for odd-numbered photon subtraction.
+  #### `/Mathematica/Process matrix for oddPS.nb`
+    Process matrix for odd-numbered photon subtraction.
 
-### `/Mathematica/Testing success prob.nb`
-Contains tests for the total success probability adding to 100%.
+  #### `/Mathematica/Testing success prob.nb`
+    Contains tests for the total success probability adding to 100%.
 
-### `/Mathematica/WignerPlots.nb`
-Contains Wigner distributions of the four-component cat states.
+  #### `/Mathematica/WignerPlots.nb`
+    Contains Wigner distributions of the four-component cat states.
 
 * `/MATLAB/`: contains MATLAB code files and functions
-### `/MATLAB/Backup values/`
-Contains various data backups generated for the plots.
+  #### `/MATLAB/Backup values/`
+    Contains various data backups generated for the plots.
 
-### `/MATLAB/PlotsVLoss.m`
-Computes and plots fidelity and success probability versus channel loss.
+  #### `/MATLAB/PlotsVLoss.m`
+    Computes and plots fidelity and success probability versus channel loss.
 
-### `/MATLAB/PlotsvT.m`
-Computes and plots fidelity and success probability versus beamsplitter transmittance.
+  #### `/MATLAB/PlotsvT.m`
+    Computes and plots fidelity and success probability versus beamsplitter transmittance.
 
-### `/MATLAB/ggdconA.m`
-Implements constrained gradient ascent over CPTP Choi matrices together with minimization over pure states.
+  #### `/MATLAB/ggdconA.m`
+    Implements constrained gradient ascent over CPTP Choi matrices together with minimization over pure states.
